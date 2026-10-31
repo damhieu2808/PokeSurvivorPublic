@@ -46,8 +46,8 @@ Bot cần **mã kích hoạt** còn hạn để chạy. Panel, Moveset, Level-up
 | 90 ngày | 50k |
 
 1. Cài bot, vào game. Panel hiện **🔒 Cần mã kích hoạt** và **mã máy** (dạng `ABCD-1234`), bấm **Copy**.
-2. Chuyển khoản (tab **💳 Mua mã** trên panel có QR và số tài khoản), nội dung ghi mã máy.
-3. Nhắn [TikTok @phuongnguyenconhat](https://www.tiktok.com/@phuongnguyenconhat) ảnh chuyển khoản + mã máy.
+2. Chuyển khoản (tab **💳 Mua mã** trên panel có QR và số tài khoản).
+3. Nhắn [Zalo 0355011166 (Đàm Xuân Hiếu)](https://zalo.me/0355011166) hoặc [TikTok @phuongnguyenconhat](https://www.tiktok.com/@phuongnguyenconhat) ảnh chuyển khoản + mã máy.
 4. Nhận mã (bắt đầu bằng `PSB1.`), dán vào ô trên panel → **Nhập** → **▶ Chạy**.
 
 - Gia hạn trước khi hết hạn: ngày mới được cộng nối tiếp, không mất ngày. Bấm **Gia hạn** trên panel để nhập mã mới.
@@ -131,4 +131,4 @@ Không có trạng thái game (bookmarklet, doofcraft) thì bot dùng cách cũ:
 - **Máy tính:** khi panel hiện dòng vàng "⬆ Có bản mới", tải lại ZIP ở bước 1 rồi giải nén đè lên thư mục cũ.
 - **Điện thoại:** trình quản lý userscript tự cập nhật định kỳ (hoặc bấm **Check for updates**).
 
-Cần cài hộ: liên hệ [TikTok @phuongnguyenconhat](https://www.tiktok.com/@phuongnguyenconhat) · [Giấy phép](LICENSE)
+Cần cài hộ: liên hệ [Zalo 0355011166](https://zalo.me/0355011166) hoặc [TikTok @phuongnguyenconhat](https://www.tiktok.com/@phuongnguyenconhat) · [Giấy phép](LICENSE)
