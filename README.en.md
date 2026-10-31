@@ -19,7 +19,7 @@ Auto-play bot for [pokesurvivor.com](https://pokesurvivor.com/) and [pokesurvivo
 3. Tap the copy button on the block below, paste into that browser's **address bar** and open it:
 
 ```
-https://raw.githubusercontent.com/damhieu2808/PokeSurvivorTool/v2.0.7/psbot.user.js
+https://raw.githubusercontent.com/damhieu2808/PokeSurvivorTool/v2.0.8/psbot.user.js
 ```
 
 4. The manager opens its install page → tap **Install**. If an older version is installed, install over it.
@@ -44,6 +44,8 @@ The bot needs a valid **activation code** to run. The panel, Moveset, Level-up a
 | 10 days | 10k |
 | 30 days | 20k |
 | 90 days | 50k |
+
+**Free 2-hour trial:** message [Zalo 0355011166](https://zalo.me/0355011166) your machine id (step 1 below). Needs bot 2.0.7 or later.
 
 1. Install the bot and open the game. The panel shows **🔒 Cần mã kích hoạt** and your **machine id** (like `ABCD-1234`): press **Copy**.
 2. Pay by bank transfer (the panel's **💳 Mua mã** tab has the QR code and account), with the machine id as the message.
