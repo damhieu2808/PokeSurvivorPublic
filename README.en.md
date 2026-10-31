@@ -46,7 +46,7 @@ The bot needs a valid **activation code** to run. The panel, Moveset, Level-up a
 | 90 days | 50k |
 
 1. Install the bot and open the game. The panel shows **🔒 Cần mã kích hoạt** and your **machine id** (like `ABCD-1234`): press **Copy**.
-2. Pay by bank transfer (the panel's **💳 Mua mã** tab has the QR code and account).
+2. Pay by bank transfer (the panel's **💳 Mua mã** tab has the QR code and account), with the machine id as the message.
 3. Message [Zalo 0355011166 (Đàm Xuân Hiếu)](https://zalo.me/0355011166) or [TikTok @phuongnguyenconhat](https://www.tiktok.com/@phuongnguyenconhat) the transfer screenshot + machine id.
 4. Paste the code you get (starts with `PSB1.`) into the panel → **Nhập** → **▶ Chạy**.
 

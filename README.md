@@ -46,7 +46,7 @@ Bot cần **mã kích hoạt** còn hạn để chạy. Panel, Moveset, Level-up
 | 90 ngày | 50k |
 
 1. Cài bot, vào game. Panel hiện **🔒 Cần mã kích hoạt** và **mã máy** (dạng `ABCD-1234`), bấm **Copy**.
-2. Chuyển khoản (tab **💳 Mua mã** trên panel có QR và số tài khoản).
+2. Chuyển khoản (tab **💳 Mua mã** trên panel có QR và số tài khoản), nội dung ghi mã máy.
 3. Nhắn [Zalo 0355011166 (Đàm Xuân Hiếu)](https://zalo.me/0355011166) hoặc [TikTok @phuongnguyenconhat](https://www.tiktok.com/@phuongnguyenconhat) ảnh chuyển khoản + mã máy.
 4. Nhận mã (bắt đầu bằng `PSB1.`), dán vào ô trên panel → **Nhập** → **▶ Chạy**.
 
