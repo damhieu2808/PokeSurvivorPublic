@@ -19,7 +19,7 @@ Auto-play bot for [pokesurvivor.com](https://pokesurvivor.com/) and [pokesurvivo
 3. Tap the copy button on the block below, paste into that browser's **address bar** and open it:
 
 ```
-https://raw.githubusercontent.com/damhieu2808/PokeSurvivorTool/main/psbot.user.js?v=2.0.3
+https://raw.githubusercontent.com/damhieu2808/PokeSurvivorTool/v2.0.3/psbot.user.js
 ```
 
 4. The manager opens its install page → tap **Install**. If an older version is installed, install over it.
