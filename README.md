@@ -19,7 +19,7 @@ Bot tự chơi [pokesurvivor.com](https://pokesurvivor.com/) và [pokesurvivor.d
 3. Bấm nút copy ở góc khối dưới đây, dán vào **thanh địa chỉ** của trình duyệt đó rồi mở:
 
 ```
-https://raw.githubusercontent.com/damhieu2808/PokeSurvivorTool/v2.0.6/psbot.user.js
+https://raw.githubusercontent.com/damhieu2808/PokeSurvivorTool/v2.0.7/psbot.user.js
 ```
 
 4. Trình quản lý tự mở trang cài script → bấm **Install** (Cài đặt). Đã cài bản cũ thì cài đè lên.
@@ -73,6 +73,10 @@ Nhập **Số ván** (0 = chơi mãi) rồi bấm **▶ Chạy**, bấm lại đ
 - **HYPER:** Tắt / Bật (mọi thứ mạnh lên nhanh gấp đôi, Eternatus ở 30:00, ×1,5 xu, bảng xếp hạng riêng; nên dùng pokémon đã nâng max). Đi kèm được với mọi chế độ và độ khó.
 
 Mỗi ô có **Game** = giữ nguyên lựa chọn đang có trong game. Trước mỗi ván, bot bấm các tab trên màn Solo cho khớp rồi mới bấm Play. Nếu đang có ván lưu dở khác chế độ đã chọn, bot không tự chơi tiếp hay bỏ ván đó mà dừng, báo trên panel và hiện 2 nút: **▶ Chơi tiếp ván lưu** (đổi 3 ô cho khớp ván đó rồi chạy) hoặc **✕ Bỏ ván lưu** (bấm End run, mất ván đó, rồi chạy đúng chế độ đã chọn).
+
+**Lái** (doofcraft, từ 2.0.7): **Kéo quái** (mặc định: né cả bầy, tránh góc chật, kéo quái chạy vòng, giống cách bot đi trên pokesurvivor.com) hoặc **Cũ** (cách đi trước 2.0.7).
+
+Nếu tài khoản đang mở ở tab / máy khác (game báo "The game was opened in another tab or device"), bot dừng và báo trên panel, không tự vào ván mới (vào ván mới sẽ đóng ván đang chơi bên kia). Thoát game bên kia rồi bấm **↻ Tải lại trang**.
 
 > ⚠️ **Bot 1.5.0–1.5.6 chuyển pokesurvivor.com sang `/dev.html`.** Từ 26/10, trang này của game không còn dùng tài khoản (không lưu lên cloud, không lên bảng xếp hạng). Từ bản 1.5.7, bot đưa bạn về trang chính. Nếu thấy địa chỉ là `pokesurvivor.com/dev.html`, hãy cập nhật bot rồi mở lại `pokesurvivor.com`.
 

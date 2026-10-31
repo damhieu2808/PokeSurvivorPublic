@@ -19,7 +19,7 @@ Auto-play bot for [pokesurvivor.com](https://pokesurvivor.com/) and [pokesurvivo
 3. Tap the copy button on the block below, paste into that browser's **address bar** and open it:
 
 ```
-https://raw.githubusercontent.com/damhieu2808/PokeSurvivorTool/v2.0.6/psbot.user.js
+https://raw.githubusercontent.com/damhieu2808/PokeSurvivorTool/v2.0.7/psbot.user.js
 ```
 
 4. The manager opens its install page → tap **Install**. If an older version is installed, install over it.
@@ -73,6 +73,10 @@ The panel is in Vietnamese. Enter **Số ván** (number of runs, 0 = forever) an
 - **HYPER:** Tắt / Bật (off / on: everything scales twice as fast, Eternatus at 30:00, ×1.5 coins, its own leaderboard; a max-upgraded pokémon is recommended). It goes with any mode and difficulty.
 
 Each box has **Game** = keep what the game has selected. Before each run the bot clicks the Solo screen's tabs to match, then Play. If a saved run of other settings is waiting, the bot neither continues nor ends it on its own: it stops, says so on the panel and offers two buttons: **▶ Chơi tiếp ván lưu** (continue it: the 3 boxes are set to match it, then it runs) or **✕ Bỏ ván lưu** (press End run, losing that run, then run the settings you chose).
+
+**Lái** (steering, doofcraft, from 2.0.7): **Kéo quái** (default: dodges the whole crowd, keeps out of tight corners, leads the crowd round a circle, as the bot moves on pokesurvivor.com) or **Cũ** (the steering before 2.0.7).
+
+If your account is open in another tab / device (the game says "The game was opened in another tab or device"), the bot stops and says so on the panel instead of starting a new run (that would close the run being played there). Leave the game there, then press **↻ Tải lại trang** (reload).
 
 > ⚠️ **Bot 1.5.0–1.5.6 moved pokesurvivor.com to `/dev.html`.** Since 26/10 that page of the game no longer uses your account (no cloud save, no ranking). From 1.5.7 the bot takes you back to the main page. If the address shows `pokesurvivor.com/dev.html`, update the bot and open `pokesurvivor.com` again.
 
