@@ -19,7 +19,7 @@ Auto-play bot for [pokesurvivor.com](https://pokesurvivor.com/) and [pokesurvivo
 3. Tap the copy button on the block below, paste into that browser's **address bar** and open it:
 
 ```
-https://raw.githubusercontent.com/damhieu2808/PokeSurvivorTool/v2.1.8/psbot.user.js
+https://raw.githubusercontent.com/damhieu2808/PokeSurvivorTool/v2.1.9/psbot.user.js
 ```
 
 4. The manager opens its install page → tap **Install**. If an older version is installed, install over it.
@@ -41,12 +41,14 @@ The bot needs a valid **activation code** to run. The panel, Moveset, Level-up a
 
 | Plan | Price (VND) |
 |---|---|
-| 10 days | 10k |
-| 30 days | 20k |
-| 90 days | 50k |
-| Lifetime | 150k |
+| 10 days | 20k |
+| 30 days | 50k |
+| 90 days | 120k |
+| Lifetime | 350k |
 
 Lifetime plan: 1 machine, works for as long as the tool does.
+
+⚠ Plans last while the game does not block the tool. If it does, I will try everything to get the tool running again; if nothing works, there is no refund.
 
 **Free 2-hour trial:** message [Zalo 0355011166](https://zalo.me/0355011166) your machine id (step 1 below). Needs bot 2.0.7 or later.
 
