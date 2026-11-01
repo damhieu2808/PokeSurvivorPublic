@@ -19,7 +19,7 @@ Bot tự chơi [pokesurvivor.com](https://pokesurvivor.com/) và [pokesurvivor.d
 3. Bấm nút copy ở góc khối dưới đây, dán vào **thanh địa chỉ** của trình duyệt đó rồi mở:
 
 ```
-https://raw.githubusercontent.com/damhieu2808/PokeSurvivorTool/v2.1.5/psbot.user.js
+https://raw.githubusercontent.com/damhieu2808/PokeSurvivorTool/v2.1.6/psbot.user.js
 ```
 
 4. Trình quản lý tự mở trang cài script → bấm **Install** (Cài đặt). Đã cài bản cũ thì cài đè lên.
@@ -62,7 +62,7 @@ Gói vĩnh viễn: 1 máy, dùng tới khi tool còn hoạt động.
 
 ## Dùng
 
-Nhập **Số ván** (0 = chơi mãi) rồi bấm **▶ Chạy**, bấm lại để **■ Dừng**. **⚔ Moveset** để chọn 4 move bot ưu tiên cho từng pokémon. **⬆ Level-up** để xem / đổi thứ tự bot chọn thẻ khi lên cấp, **🎒 Item** để đổi thứ tự đồ cầm. Danh sách move lấy theo đúng từng bản game, có thêm các move TM pokémon đó học được (pokesurvivor.com: Kecleon Shop; doofcraft: Poké Mart): "TM ✓" là đã dạy, "TM" là chưa dạy (game chỉ đưa thẻ TM đã dạy). Phím tắt trên máy tính: **F8** bật/tắt bot, **F9** hiện lớp vẽ (bot đang thấy gì).
+Nhập **Số ván** (0 = chơi mãi) rồi bấm **▶ Chạy**, bấm lại để **■ Dừng**. **⚔ Moveset** để chọn 4 move bot ưu tiên cho từng pokémon, thêm 2 move dự phòng (#5, #6: bot chỉ lấy khi move chính chưa ra mà sắp hết ô). **⬆ Level-up** để xem / đổi thứ tự bot chọn thẻ khi lên cấp, **🎒 Item** để đổi thứ tự đồ cầm. Danh sách move lấy theo đúng từng bản game, có thêm các move TM pokémon đó học được (pokesurvivor.com: Kecleon Shop; doofcraft: Poké Mart): "TM ✓" là đã dạy, "TM" là chưa dạy (game chỉ đưa thẻ TM đã dạy). Phím tắt trên máy tính: **F8** bật/tắt bot, **F9** hiện lớp vẽ (bot đang thấy gì).
 
 **Màn hình nhỏ** (điện thoại, nhất là khi xoay ngang): panel gọn hơn, lần đầu thu gọn sẵn thành một dòng tiêu đề có nút **▶ / ■** để chạy / dừng; bấm **+** để mở ra. Popup Moveset nằm cạnh panel thay vì bên dưới.
 
@@ -89,7 +89,7 @@ Nếu tài khoản đang mở ở tab / máy khác (game báo "The game was open
 
 Mỗi lần lên cấp, bot chấm điểm từng thẻ rồi chọn thẻ điểm cao nhất. Lý do mỗi lần chọn hiện trong console (F12), ví dụ `chọn 2 Psychic — lấy move build #2`.
 
-Thứ tự giống [pokesurvivor-autofarm](https://github.com/BoundlessEgret/pokesurvivor-autofarm) (MIT), áp dụng cho cả 2 bản. **Build** là Moveset của pokémon đang chơi: bot nhận ra pokémon qua tên trên HUD, hoặc pokémon partner trong save nếu đang ở menu. Popup tự đổi theo pokémon đang chơi: khi đã nhận ra pokémon, popup chỉ hiện tên trên tiêu đề và 4 move. Bấm ✎ để sửa build của pokémon khác (gõ tên); bấm 🎯 để quay lại theo pokémon đang chơi. Có sẵn build của tool đó cho 3 pokémon (đều nên cầm Shell Bell):
+Thứ tự giống [pokesurvivor-autofarm](https://github.com/BoundlessEgret/pokesurvivor-autofarm) (MIT), áp dụng cho cả 2 bản. **Build** là Moveset của pokémon đang chơi: bot nhận ra pokémon qua tên trên HUD, hoặc pokémon partner trong save nếu đang ở menu. Popup tự đổi theo pokémon đang chơi: khi đã nhận ra pokémon, popup chỉ hiện tên trên tiêu đề và các ô move. Bấm ✎ để sửa build của pokémon khác (gõ tên); bấm 🎯 để quay lại theo pokémon đang chơi. Có sẵn build của tool đó cho 3 pokémon (đều nên cầm Shell Bell):
 - **Mewtwo:** Confusion → Harden → Nasty Plot → Psychic.
 - **Kyogre:** Bubble → Nasty Plot → Aqua Ring → Hydro Pump.
 - **Bulbasaur:** Energy Ball → Nasty Plot → Petal Blizzard → Grass Knot (mua "Starting move" Energy Ball trong shop).
@@ -103,9 +103,9 @@ Tầng trên luôn thắng tầng dưới. Đây là thứ tự mặc định; b
 1. Thẻ **tiến hoá** một skill.
 2. Nội tại **lấy là tiến hoá ngay** một move đã max (thẻ vàng; pokesurvivor.com).
 3. **Sitrus Berry / Baya Zidra** (hồi 45% máu) khi **máu dưới 35%**. Máu khoẻ thì gần cuối (sau mục 8).
-4. **Lấy move trong build** chưa có (#1 trước #2…). Không có build: move mới khi còn ô, theo thứ tự tự chọn ở trên.
+4. **Lấy move trong build** chưa có (#1 trước #2…). Move dự phòng #5, #6 xếp sau, chỉ lấy khi còn ô dư cho các move chính chưa có, hoặc là ô cuối cùng (move chính chưa ra thì ô đó không bị bỏ trống). Không có build: move mới khi còn ô, theo thứ tự tự chọn ở trên.
 5. **Nội tại mà move đang có cần để tiến hoá** (ví dụ Magnet cho Psychic), khi chưa lấy nội tại đó. Đứng trên mọi nâng cấp move.
-6. **Nâng cấp move trong build** (#1 trước #2…), move buff cũng như move tấn công: 4 move của Moveset được max trước move khác.
+6. **Nâng cấp move trong build** (#1 trước #2…), move buff cũng như move tấn công: các move của Moveset được max trước move khác.
 7. **Nâng cấp move ngoài build còn tiến hoá được**: càng gần max càng gấp. Chỉ khi dùng build mặc định (chưa lưu Moveset); đã lưu Moveset thì loại thẻ này xuống ngay dưới mục 8, để bot không nâng move khởi đầu hay move lấy thêm thay cho nội tại.
 8. **Nội tại**: **giáp** (Armor / Coraza) trước tiên cho tới khi đầy (pokesurvivor.com: -6% sát thương mỗi thẻ, tới 70%; doofcraft: 20 thẻ, khoảng 67%). Sau đó: Power > Reflexes > (Focus / Sniper, doofcraft) > Vigor > Synthesis > Learning > Magnet > Sprint.
 9. **Nâng cấp move ngoài build không tiến hoá được**.

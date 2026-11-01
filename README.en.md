@@ -19,7 +19,7 @@ Auto-play bot for [pokesurvivor.com](https://pokesurvivor.com/) and [pokesurvivo
 3. Tap the copy button on the block below, paste into that browser's **address bar** and open it:
 
 ```
-https://raw.githubusercontent.com/damhieu2808/PokeSurvivorTool/v2.1.5/psbot.user.js
+https://raw.githubusercontent.com/damhieu2808/PokeSurvivorTool/v2.1.6/psbot.user.js
 ```
 
 4. The manager opens its install page → tap **Install**. If an older version is installed, install over it.
@@ -62,7 +62,7 @@ Lifetime plan: 1 machine, works for as long as the tool does.
 
 ## Use
 
-The panel is in Vietnamese. Enter **Số ván** (number of runs, 0 = forever) and press **▶ Chạy** (Run); press it again to **■ Dừng** (Stop). **⚔ Moveset** picks the 4 moves the bot prefers for each pokémon. The move list follows each game version, with the TM moves that pokémon can learn (pokesurvivor.com: Kecleon Shop; doofcraft: Poké Mart): "TM ✓" = already taught, "TM" = not yet (the game only offers taught TMs). PC shortcuts: **F8** toggles the bot, **F9** shows an overlay of what the bot sees.
+The panel is in Vietnamese. Enter **Số ván** (number of runs, 0 = forever) and press **▶ Chạy** (Run); press it again to **■ Dừng** (Stop). **⚔ Moveset** picks the 4 moves the bot prefers for each pokémon, plus 2 backups (#5, #6: taken only when a main move hasn't shown up and slots are running out). The move list follows each game version, with the TM moves that pokémon can learn (pokesurvivor.com: Kecleon Shop; doofcraft: Poké Mart): "TM ✓" = already taught, "TM" = not yet (the game only offers taught TMs). PC shortcuts: **F8** toggles the bot, **F9** shows an overlay of what the bot sees.
 
 **Small screens** (phones, especially held sideways): the panel is more compact and starts collapsed to its title row, with a **▶ / ■** button to run / stop; **+** opens it. The Moveset popup sits beside the panel instead of below it.
 
@@ -91,7 +91,7 @@ The order below is the default; **⬆ Level-up** on the panel shows it and lets 
 
 On every level-up the bot scores each card and takes the best one. The reason for each pick is printed in the console (F12), e.g. `chọn 2 Psychic — lấy move build #2` ("take build move #2").
 
-The order of [pokesurvivor-autofarm](https://github.com/BoundlessEgret/pokesurvivor-autofarm) (MIT), on both versions. The **build** is the Moveset of the pokémon being played: the bot recognises it by the name on the HUD, or the partner in the save while at the menu. The popup follows the pokémon being played: once it's recognised, the popup only shows its name on the title row and the 4 moves. ✎ edits another pokémon's build (type its name); 🎯 goes back to following the one being played. That tool's builds come built in for 3 pokémon (Shell Bell recommended for all):
+The order of [pokesurvivor-autofarm](https://github.com/BoundlessEgret/pokesurvivor-autofarm) (MIT), on both versions. The **build** is the Moveset of the pokémon being played: the bot recognises it by the name on the HUD, or the partner in the save while at the menu. The popup follows the pokémon being played: once it's recognised, the popup only shows its name on the title row and the move slots. ✎ edits another pokémon's build (type its name); 🎯 goes back to following the one being played. That tool's builds come built in for 3 pokémon (Shell Bell recommended for all):
 - **Mewtwo:** Confusion → Harden → Nasty Plot → Psychic.
 - **Kyogre:** Bubble → Nasty Plot → Aqua Ring → Hydro Pump.
 - **Bulbasaur:** Energy Ball → Nasty Plot → Petal Blizzard → Grass Knot (buy Energy Ball as its "Starting move" in the shop).
@@ -105,9 +105,9 @@ A higher tier always wins:
 1. A card that **evolves** a skill.
 2. A passive that **evolves a maxed move at once** (gold card; pokesurvivor.com).
 3. **Sitrus Berry** (heals 45% HP) **under 35% HP**. At good HP it's near the bottom (after 8).
-4. **A build move** not taken yet (#1 before #2…). Without a build: a new move while a slot is free, in the order above.
+4. **A build move** not taken yet (#1 before #2…). Backups #5, #6 come after, taken only into a slot the main moves can spare or the last free one (so a main move that never shows up doesn't leave it empty). Without a build: a new move while a slot is free, in the order above.
 5. **A passive an owned move needs to evolve** (e.g. Magnet for Psychic), not taken yet. Above every move upgrade.
-6. **Upgrade a build move** (#1 before #2…), buffs as much as attacks: the Moveset's 4 moves are maxed before any other.
+6. **Upgrade a build move** (#1 before #2…), buffs as much as attacks: the Moveset's moves are maxed before any other.
 7. **Upgrade a move outside the build that can still evolve**: the nearer its max, the sooner. Only with the default build (no Moveset saved); once you save a Moveset these cards go right under 8, so the bot doesn't level the starting move or an extra move instead of passives.
 8. **Passives**: **Armor** first until capped (pokesurvivor.com: -6% damage taken per card, up to 70%; doofcraft: 20 cards, ~67%). Then Power > Reflexes > (Focus / Sniper, doofcraft) > Vigor > Synthesis > Learning > Magnet > Sprint.
 9. **Upgrade a move outside the build that can't evolve**.
