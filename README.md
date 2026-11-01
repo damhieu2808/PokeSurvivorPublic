@@ -19,7 +19,7 @@ Bot tự chơi [pokesurvivor.com](https://pokesurvivor.com/) và [pokesurvivor.d
 3. Bấm nút copy ở góc khối dưới đây, dán vào **thanh địa chỉ** của trình duyệt đó rồi mở:
 
 ```
-https://raw.githubusercontent.com/damhieu2808/PokeSurvivorTool/v2.1.1/psbot.user.js
+https://raw.githubusercontent.com/damhieu2808/PokeSurvivorTool/v2.1.2/psbot.user.js
 ```
 
 4. Trình quản lý tự mở trang cài script → bấm **Install** (Cài đặt). Đã cài bản cũ thì cài đè lên.
@@ -106,7 +106,7 @@ Tầng trên luôn thắng tầng dưới. Đây là thứ tự mặc định; b
 4. **Lấy move trong build** chưa có (#1 trước #2…). Không có build: move mới khi còn ô, theo thứ tự tự chọn ở trên.
 5. **Nội tại mà move đang có cần để tiến hoá** (ví dụ Magnet cho Psychic), khi chưa lấy nội tại đó. Đứng trên mọi nâng cấp move.
 6. **Nâng cấp move trong build** (#1 trước #2…), move buff cũng như move tấn công: 4 move của Moveset được max trước move khác.
-7. **Nâng cấp move ngoài build còn tiến hoá được**: càng gần max càng gấp.
+7. **Nâng cấp move ngoài build còn tiến hoá được**: càng gần max càng gấp. Chỉ khi dùng build mặc định (chưa lưu Moveset); đã lưu Moveset thì loại thẻ này xuống ngay dưới mục 8, để bot không nâng move khởi đầu hay move lấy thêm thay cho nội tại.
 8. **Nội tại**: **giáp** (Armor / Coraza) trước tiên cho tới khi đầy (pokesurvivor.com: -6% sát thương mỗi thẻ, tới 70%; doofcraft: 20 thẻ, khoảng 67%). Sau đó: Power > Reflexes > (Focus / Sniper, doofcraft) > Vigor > Synthesis > Learning > Magnet > Sprint.
 9. **Nâng cấp move ngoài build không tiến hoá được**.
 10. **Move mới ngoài build** khi còn ô thừa (ô của các move build chưa có luôn được giữ lại).

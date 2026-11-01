@@ -19,7 +19,7 @@ Auto-play bot for [pokesurvivor.com](https://pokesurvivor.com/) and [pokesurvivo
 3. Tap the copy button on the block below, paste into that browser's **address bar** and open it:
 
 ```
-https://raw.githubusercontent.com/damhieu2808/PokeSurvivorTool/v2.1.1/psbot.user.js
+https://raw.githubusercontent.com/damhieu2808/PokeSurvivorTool/v2.1.2/psbot.user.js
 ```
 
 4. The manager opens its install page → tap **Install**. If an older version is installed, install over it.
@@ -108,7 +108,7 @@ A higher tier always wins:
 4. **A build move** not taken yet (#1 before #2…). Without a build: a new move while a slot is free, in the order above.
 5. **A passive an owned move needs to evolve** (e.g. Magnet for Psychic), not taken yet. Above every move upgrade.
 6. **Upgrade a build move** (#1 before #2…), buffs as much as attacks: the Moveset's 4 moves are maxed before any other.
-7. **Upgrade a move outside the build that can still evolve**: the nearer its max, the sooner.
+7. **Upgrade a move outside the build that can still evolve**: the nearer its max, the sooner. Only with the default build (no Moveset saved); once you save a Moveset these cards go right under 8, so the bot doesn't level the starting move or an extra move instead of passives.
 8. **Passives**: **Armor** first until capped (pokesurvivor.com: -6% damage taken per card, up to 70%; doofcraft: 20 cards, ~67%). Then Power > Reflexes > (Focus / Sniper, doofcraft) > Vigor > Synthesis > Learning > Magnet > Sprint.
 9. **Upgrade a move outside the build that can't evolve**.
 10. **A new move outside the build** while a slot is to spare (slots for the build moves not taken yet are always kept).
