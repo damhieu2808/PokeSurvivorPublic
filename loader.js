@@ -24,6 +24,8 @@
     // Inline <script> runs in the page itself, like the extension's "world": "MAIN"
     code.forEach((c, i) => { const s = document.createElement('script'); s.textContent = `${c}\n//# sourceURL=psbot/${FILES[i]}`; document.body.append(s); s.remove(); });
   } catch (e) {
-    alert(`[PSBot] ${e.message} — kiểm tra mạng rồi thử lại`);
+    let en = false;
+    try { en = localStorage.getItem('psbot.lang') === 'en'; } catch {}
+    alert(`[PSBot] ${e.message} — ${en ? 'check the connection and try again' : 'kiểm tra mạng rồi thử lại'}`);
   }
 })();

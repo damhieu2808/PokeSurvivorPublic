@@ -19,7 +19,7 @@ Auto-play bot for [pokesurvivor.com](https://pokesurvivor.com/) and [pokesurvivo
 3. Tap the copy button on the block below, paste into that browser's **address bar** and open it:
 
 ```
-https://raw.githubusercontent.com/damhieu2808/PokeSurvivorTool/v2.1.6/psbot.user.js
+https://raw.githubusercontent.com/damhieu2808/PokeSurvivorTool/v2.1.7/psbot.user.js
 ```
 
 4. The manager opens its install page → tap **Install**. If an older version is installed, install over it.
@@ -50,44 +50,44 @@ Lifetime plan: 1 machine, works for as long as the tool does.
 
 **Free 2-hour trial:** message [Zalo 0355011166](https://zalo.me/0355011166) your machine id (step 1 below). Needs bot 2.0.7 or later.
 
-1. Install the bot and open the game. The panel shows **🔒 Cần mã kích hoạt** and your **machine id** (like `ABCD-1234`): press **Copy**.
-2. Pay by bank transfer (the panel's **💳 Mua mã** tab has the QR code and account), with the machine id as the message.
+1. Install the bot and open the game. The panel shows **🔒 An activation code is needed** and your **machine id** (like `ABCD-1234`): press **Copy**.
+2. Pay by bank transfer (the panel's **💳 Buy a code** tab has the QR code and account), with the machine id as the message.
 3. Message [Zalo 0355011166 (Đàm Xuân Hiếu)](https://zalo.me/0355011166) or [TikTok @phuongnguyenconhat](https://www.tiktok.com/@phuongnguyenconhat) the transfer screenshot + machine id.
-4. Paste the code you get (starts with `PSB1.`) into the panel → **Nhập** → **▶ Chạy**.
+4. Paste the code you get (starts with `PSB1.`) into the panel → **Enter** → **▶ Run**.
 
-- Renewing before it runs out adds the new days after the current ones. Press **Gia hạn** on the panel to enter the new code.
+- Renewing before it runs out adds the new days after the current ones. Press **Renew** on the panel to enter the new code.
 - Each browser and each game site (pokesurvivor.com / doofcraft) has its own machine id. Playing both: send both ids, you get one code for both.
 - Clearing the browser's site data changes the machine id: message the author for a new code, no days lost.
 - If a game update breaks the bot, the author adds back the days it could not run.
 
 ## Use
 
-The panel is in Vietnamese. Enter **Số ván** (number of runs, 0 = forever) and press **▶ Chạy** (Run); press it again to **■ Dừng** (Stop). **⚔ Moveset** picks the 4 moves the bot prefers for each pokémon, plus 2 backups (#5, #6: taken only when a main move hasn't shown up and slots are running out). The move list follows each game version, with the TM moves that pokémon can learn (pokesurvivor.com: Kecleon Shop; doofcraft: Poké Mart): "TM ✓" = already taught, "TM" = not yet (the game only offers taught TMs). PC shortcuts: **F8** toggles the bot, **F9** shows an overlay of what the bot sees.
+The panel starts in Vietnamese: press **VI | EN** under its title (next to "by damhieu2808") to switch it to English (remembered in the browser). Enter **Runs** (0 = endless) and press **▶ Run**; press it again to **■ Stop**. **⚔ Moveset** picks the 4 moves the bot prefers for each pokémon, plus 2 backups (#5, #6: taken only when a main move hasn't shown up and slots are running out). The move list follows each game version, with the TM moves that pokémon can learn (pokesurvivor.com: Kecleon Shop; doofcraft: Poké Mart): "TM ✓" = already taught, "TM" = not yet (the game only offers taught TMs). PC shortcuts: **F8** toggles the bot, **F9** shows an overlay of what the bot sees.
 
 **Small screens** (phones, especially held sideways): the panel is more compact and starts collapsed to its title row, with a **▶ / ■** button to run / stop; **+** opens it. The Moveset popup sits beside the panel instead of below it.
 
-**Không gửi bảng xếp hạng** (don't submit to the leaderboard; pokesurvivor.com, on by default): runs the bot plays are not submitted to the leaderboard. Runs you play yourself (bot off) still are. Untick it on the panel to let the bot's runs count.
+**Keep off the leaderboard** (pokesurvivor.com, on by default): runs the bot plays are not submitted to the leaderboard. Runs you play yourself (bot off) still are. Untick it on the panel to let the bot's runs count.
 
 **Auto skill** (on by default): the bot keeps switching skills (E key) to use every move. Untick it and the bot stops switching; you switch by hand.
 
 **Save after every run:** on pokesurvivor.com, after a run the bot goes back to the menu, presses **Guardar** (Save) and waits until the game says it is saved to the cloud before the next run (a minute at most). Doofcraft saves to its server when a run ends, so there is nothing to press.
 
 **Run settings** ([pokesurvivor.doofcraft.com](https://pokesurvivor.doofcraft.com/)): 3 boxes on the panel, as on the game's Solo screen.
-- **Chế độ** (mode): Normal (play until you fall) / Waves (rounds in a row, a chest between rounds, a boss every 25 rounds).
-- **Độ khó** (difficulty): Easy / Medium / Hard.
-- **HYPER:** Tắt / Bật (off / on: everything scales twice as fast, Eternatus at 30:00, ×1.5 coins, its own leaderboard; a max-upgraded pokémon is recommended). It goes with any mode and difficulty.
+- **Mode**: Normal (play until you fall) / Waves (rounds in a row, a chest between rounds, a boss every 25 rounds).
+- **Difficulty**: Easy / Medium / Hard.
+- **HYPER:** Off / On (everything scales twice as fast, Eternatus at 30:00, ×1.5 coins, its own leaderboard; a max-upgraded pokémon is recommended). It goes with any mode and difficulty.
 
-Each box has **Game** = keep what the game has selected. Before each run the bot clicks the Solo screen's tabs to match, then Play. If a saved run of other settings is waiting, the bot neither continues nor ends it on its own: it stops, says so on the panel and offers two buttons: **▶ Chơi tiếp ván lưu** (continue it: the 3 boxes are set to match it, then it runs) or **✕ Bỏ ván lưu** (press End run, losing that run, then run the settings you chose).
+Each box has **Game** = keep what the game has selected. Before each run the bot clicks the Solo screen's tabs to match, then Play. If a saved run of other settings is waiting, the bot neither continues nor ends it on its own: it stops, says so on the panel and offers two buttons: **▶ Continue the saved run** (the 3 boxes are set to match it, then it runs) or **✕ End the saved run** (press End run, losing that run, then run the settings you chose).
 
-**Lái** (steering, doofcraft, from 2.0.7): **Kéo quái** (default: dodges the whole crowd, keeps out of tight corners, leads the crowd round a circle, as the bot moves on pokesurvivor.com) or **Cũ** (the steering before 2.0.7).
+**Steering** (doofcraft, from 2.0.7): **Kite** (default: dodges the whole crowd, keeps out of tight corners, leads the crowd round a circle, as the bot moves on pokesurvivor.com) or **Old** (the steering before 2.0.7).
 
-If your account is open in another tab / device (the game says "The game was opened in another tab or device"), the bot stops and says so on the panel instead of starting a new run (that would close the run being played there). Leave the game there, then press **↻ Tải lại trang** (reload).
+If your account is open in another tab / device (the game says "The game was opened in another tab or device"), the bot stops and says so on the panel instead of starting a new run (that would close the run being played there). Leave the game there, then press **↻ Reload the page**.
 
 > ⚠️ **Bot 1.5.0–1.5.6 moved pokesurvivor.com to `/dev.html`.** Since 26/10 that page of the game no longer uses your account (no cloud save, no ranking). From 1.5.7 the bot takes you back to the main page. If the address shows `pokesurvivor.com/dev.html`, update the bot and open `pokesurvivor.com` again.
 
 ### How the bot picks level-up cards
 
-The order below is the default; **⬆ Level-up** on the panel shows it and lets you change it (↑ ↓ on each row, the reroll line too; saved in the browser, **Mặc định** restores the default). Each game has its own list and order: doofcraft adds Mega / form change (Unique cards, right under evolutions), Z-moves, Revive, Focus / Sniper.
+The order below is the default; **⬆ Level-up** on the panel shows it and lets you change it (↑ ↓ on each row, the reroll line too; saved in the browser, **Default** restores the default). Each game has its own list and order: doofcraft adds Mega / form change (Unique cards, right under evolutions), Z-moves, Revive, Focus / Sniper.
 
 On every level-up the bot scores each card and takes the best one. The reason for each pick is printed in the console (F12), e.g. `chọn 2 Psychic — lấy move build #2` ("take build move #2").
 

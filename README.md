@@ -19,7 +19,7 @@ Bot tự chơi [pokesurvivor.com](https://pokesurvivor.com/) và [pokesurvivor.d
 3. Bấm nút copy ở góc khối dưới đây, dán vào **thanh địa chỉ** của trình duyệt đó rồi mở:
 
 ```
-https://raw.githubusercontent.com/damhieu2808/PokeSurvivorTool/v2.1.6/psbot.user.js
+https://raw.githubusercontent.com/damhieu2808/PokeSurvivorTool/v2.1.7/psbot.user.js
 ```
 
 4. Trình quản lý tự mở trang cài script → bấm **Install** (Cài đặt). Đã cài bản cũ thì cài đè lên.
@@ -63,6 +63,8 @@ Gói vĩnh viễn: 1 máy, dùng tới khi tool còn hoạt động.
 ## Dùng
 
 Nhập **Số ván** (0 = chơi mãi) rồi bấm **▶ Chạy**, bấm lại để **■ Dừng**. **⚔ Moveset** để chọn 4 move bot ưu tiên cho từng pokémon, thêm 2 move dự phòng (#5, #6: bot chỉ lấy khi move chính chưa ra mà sắp hết ô). **⬆ Level-up** để xem / đổi thứ tự bot chọn thẻ khi lên cấp, **🎒 Item** để đổi thứ tự đồ cầm. Danh sách move lấy theo đúng từng bản game, có thêm các move TM pokémon đó học được (pokesurvivor.com: Kecleon Shop; doofcraft: Poké Mart): "TM ✓" là đã dạy, "TM" là chưa dạy (game chỉ đưa thẻ TM đã dạy). Phím tắt trên máy tính: **F8** bật/tắt bot, **F9** hiện lớp vẽ (bot đang thấy gì).
+
+**VI | EN** (dưới tiêu đề panel, cạnh "by damhieu2808"): đổi panel và các popup sang tiếng Anh cho người chơi nước ngoài, bấm lại để về tiếng Việt (mặc định). Lưu trên trình duyệt.
 
 **Màn hình nhỏ** (điện thoại, nhất là khi xoay ngang): panel gọn hơn, lần đầu thu gọn sẵn thành một dòng tiêu đề có nút **▶ / ■** để chạy / dừng; bấm **+** để mở ra. Popup Moveset nằm cạnh panel thay vì bên dưới.
 
